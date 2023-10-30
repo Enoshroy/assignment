@@ -13,5 +13,6 @@ import java.util.List;
     Collections.shuffle(list);
 
     System.out.println("Shuffled Array; "+list);
+    
   }
 }
