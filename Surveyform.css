@@ -1,0 +1,95 @@
+.container {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 2px solid #ffff00; 
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #3498db;
+  }
+  
+  label, button {
+    color: #000; 
+  }
+  
+  .error-message {
+    background-color: #000; 
+    color: #fff; 
+  }
+  
+  .gender-label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .gender-option {
+    display: flex;
+    align-items: center;
+    margin-right: 10px; 
+  }
+  
+  .gender-checkbox {
+    display: none;
+  }
+  
+  .gender-checkbox + label {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .gender-checkbox + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #000;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  
+  .gender-checkbox:checked + label:before {
+    background-color: #00ff00; 
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .button-container {
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .error-message {
+    color: #e74c3c;
+    font-weight: bold;
+  }
+  

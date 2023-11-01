@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class Assignment2 {
+public class B {
     public static void main(String[] args) {
        
         Map<Character, Integer> romanNumeralValues = new HashMap<>();
